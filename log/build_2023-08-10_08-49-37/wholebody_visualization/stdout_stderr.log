@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:4[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+/usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = interactive_markers::InteractiveMarkerServer; _Args = {JointStatePub*, const char (&)[14]}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<interactive_markers::InteractiveMarkerServer>][m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:50:66:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kinteractive_markers::InteractiveMarkerServer::InteractiveMarkerServer(JointStatePub*, const char [14])[m[K’
+  962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:19[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/interactive_markers/interactive_markers/interactive_marker_server.hpp:89:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodePtr> interactive_markers::InteractiveMarkerServer::InteractiveMarkerServer(const string&, NodePtr, const rclcpp::QoS&, const rclcpp::QoS&)[m[K’
+   89 |   [01;36m[KInteractiveMarkerServer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/interactive_markers/interactive_markers/interactive_marker_server.hpp:89:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:4[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<JointStatePub*>((* & __args#0))[m[K’ (type ‘[01m[KJointStatePub*[m[K’) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  962 |     { return unique_ptr<_Tp>([01;36m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:19[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/interactive_markers/interactive_markers/interactive_marker_server.hpp:78:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kinteractive_markers::InteractiveMarkerServer::InteractiveMarkerServer(const string&, rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeTopicsInterface::SharedPtr, rclcpp::node_interfaces::NodeServicesInterface::SharedPtr, const rclcpp::QoS&, const rclcpp::QoS&)[m[K’
+   78 |   [01;36m[KInteractiveMarkerServer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/interactive_markers/interactive_markers/interactive_marker_server.hpp:78:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

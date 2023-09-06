@@ -1,0 +1,17 @@
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch/rviz.launch.py
+/home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/package_run_dependencies/wholebody_visualization
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/parent_prefix_path/wholebody_visualization
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.sh
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.dsv
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.sh
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.dsv
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.bash
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.sh
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.zsh
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.dsv
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/packages/wholebody_visualization
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig.cmake
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig-version.cmake
+/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.xml

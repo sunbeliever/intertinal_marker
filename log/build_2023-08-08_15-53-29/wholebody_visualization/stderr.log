@@ -1,0 +1,52 @@
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:158:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placehodlers[m[K’ has not been declared
+  158 | using std::[01;31m[Kplacehodlers[m[K::_1;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In constructor ‘[01m[Kinteractive_marker::controlnode::controlnode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:187:75:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::NodeOptions[m[K’ is not a direct base of ‘[01m[Kinteractive_marker::controlnode[m[K’
+  187 | :controlnode(const rclcpp::NodeOptions & options ) :rclcpp::[01;31m[KNodeOptions[m[K("control_markers",options),
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:188:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+  188 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:188:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:4[m[K,
+                 from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K At global scope:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:209:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KprocessFeedback[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  209 |   [01;31m[Kcontrolnode[m[K::processFeedback(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:209:3:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint interactive_marker::controlnode::processFeedback(const ConstSharedPtr&)[m[K’
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid interactive_marker::controlnode::processFeedback(const ConstSharedPtr&)[m[K’
+  181 |   [01;36m[KprocessFeedback[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:161:9:[m[K [01;36m[Knote: [m[K‘[01m[Kclass interactive_marker::controlnode[m[K’ defined here
+  161 |   class [01;36m[Kcontrolnode[m[K : public rclcpp::Node
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:266:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid interactive_marker::controlnode::initialize_marker(geometry_msgs::msg::Pose)[m[K’
+  266 | void [01;31m[Kcontrolnode[m[K::initialize_marker(const geometry_msgs::msg::Pose pose_msg)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:174:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid interactive_marker::controlnode::initialize_marker()[m[K’
+  174 |   void  [01;36m[Kinitialize_marker[m[K();
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:161:9:[m[K [01;36m[Knote: [m[K‘[01m[Kclass interactive_marker::controlnode[m[K’ defined here
+  161 |   class [01;36m[Kcontrolnode[m[K : public rclcpp::Node
+      |         [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pathfinder/vis_ws/build/wholebody_description
+-- Install configuration: ""
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/launch
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/launch/rviz.launch.py
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/hip_roll.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_02.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_06.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/foot.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_04.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/body_new.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/hip_yaw.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/tarsus.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/body.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_03.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_05.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/hip_yaw_new.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/hip_roll_new.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/untitled.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/body_0526.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/arm_link_01.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/zhiyuan-texture.png
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/hip_pitch.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/meshes/body_0529.STL
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/rviz
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/rviz/moveit.rviz
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/urdf
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/urdf/wholebody_description.urdf
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/ament_index/resource_index/package_run_dependencies/wholebody_description
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/ament_index/resource_index/parent_prefix_path/wholebody_description
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/environment/ament_prefix_path.sh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/environment/ament_prefix_path.dsv
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/environment/path.sh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/environment/path.dsv
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/local_setup.bash
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/local_setup.sh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/local_setup.zsh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/local_setup.dsv
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.dsv
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/ament_index/resource_index/packages/wholebody_description
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/cmake/wholebody_descriptionConfig.cmake
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/cmake/wholebody_descriptionConfig-version.cmake
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.xml

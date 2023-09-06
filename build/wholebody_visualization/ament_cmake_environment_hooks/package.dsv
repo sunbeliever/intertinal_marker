@@ -1,0 +1,4 @@
+source;share/wholebody_visualization/local_setup.bash
+source;share/wholebody_visualization/local_setup.dsv
+source;share/wholebody_visualization/local_setup.sh
+source;share/wholebody_visualization/local_setup.zsh

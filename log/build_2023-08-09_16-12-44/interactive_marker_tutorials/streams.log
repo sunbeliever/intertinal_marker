@@ -1,0 +1,52 @@
+[0.041s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[0.099s] [ 28%] Built target menu
+[0.099s] [ 28%] Built target selection
+[0.100s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[0.101s] [ 50%] Built target basic_controls
+[0.104s] [ 64%] Built target pong_library
+[0.105s] [ 78%] Built target cube
+[0.108s] [ 92%] Built target pong
+[1.593s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.593s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.593s]   122 |   [01;31m[Ktf2[m[K::Quaternion orien(1,0,0,1);
+[1.593s]       |   [01;31m[K^~~[m[K
+[1.596s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Korien[m[K’ was not declared in this scope
+[1.597s]   124 |   [01;31m[Korien[m[K.normalize();
+[1.597s]       |   [01;31m[K^~~~~[m[K
+[1.597s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:125:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.597s]   125 |   control.orientation=[01;31m[Ktf2[m[K::toMsg(orien);
+[1.597s]       |                       [01;31m[K^~~[m[K
+[1.597s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:128:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.597s]   128 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.597s]       |                      [01;31m[K^[m[K
+[1.597s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:131:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.597s]   131 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.597s]       |                      [01;31m[K^[m[K
+[1.597s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:133:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.597s]   133 |   orien = [01;31m[Ktf2[m[K::Quaternion(0.0, 1.0, 0.0, 1.0);
+[1.597s]       |           [01;31m[K^~~[m[K
+[1.597s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:135:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.598s]   135 |   control.orientation = [01;31m[Ktf2[m[K::toMsg(orien);
+[1.598s]       |                         [01;31m[K^~~[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:138:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.598s]   138 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.598s]       |                      [01;31m[K^[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:141:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.598s]   141 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.598s]       |                      [01;31m[K^[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:143:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.598s]   143 |   orien = [01;31m[Ktf2[m[K::Quaternion(0.0, 0.0, 1.0, 1.0);
+[1.598s]       |           [01;31m[K^~~[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[1.598s]   145 |   control.orientation = [01;31m[Ktf2[m[K::toMsg(orien);
+[1.598s]       |                         [01;31m[K^~~[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:148:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.598s]   148 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.598s]       |                      [01;31m[K^[m[K
+[1.598s] [01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:151:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[1.599s]   151 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+[1.599s]       |                      [01;31m[K^[m[K
+[2.151s] gmake[2]: *** [CMakeFiles/simple_marker.dir/build.make:76: CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o] Error 1
+[2.151s] gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/simple_marker.dir/all] Error 2
+[2.151s] gmake: *** [Makefile:146: all] Error 2
+[2.153s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12

@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In constructor ‘[01m[KJointStatePub::JointStatePub(std::string)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteractive_marker[m[K’ was not declared in this scope; did you mean ‘[01m[Kinteractive_markers[m[K’?
+   27 |   [01;31m[Kinteractive_marker[m[K.header.frame_id = "world";
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kinteractive_markers[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbox_marker[m[K’ was not declared in this scope
+   33 |   [01;31m[Kbox_marker[m[K.type = visualization_msgs::msg::Marker::SPHERE;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[KControl[m[K’ was not declared in this scope
+   46 |   [01;31m[KControl[m[K.always_visible = true;
+      |   [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

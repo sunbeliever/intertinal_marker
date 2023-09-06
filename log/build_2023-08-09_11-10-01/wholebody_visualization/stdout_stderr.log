@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:227:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid JointStatePub::processFeedback(const ConstSharedPtr&, visualization_msgs::msg::InteractiveMarker&)[m[K’
+  227 | void [01;31m[KJointStatePub[m[K::processFeedback(
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:52:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid JointStatePub::processFeedback(const ConstSharedPtr&, geometry_msgs::msg::Pose&, visualization_msgs::msg::InteractiveMarker&)[m[K’
+   52 |   void [01;36m[KprocessFeedback[m[K( const visualization_msgs::msg::InteractiveMarkerFeedback::ConstSharedPtr & feedback,
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:30:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass JointStatePub[m[K’ defined here
+   30 | class [01;36m[KJointStatePub[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

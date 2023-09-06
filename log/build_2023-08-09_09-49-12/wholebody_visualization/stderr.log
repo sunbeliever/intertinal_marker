@@ -1,0 +1,8 @@
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In member function ‘[01m[Kvoid JointStatePub::processFeedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:117:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteractive_markers_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinteractive_markers[m[K’?
+  117 |   std::unique_lock<std::mutex> lock([01;31m[Kinteractive_markers_mutex_[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                     [32m[Kinteractive_markers[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

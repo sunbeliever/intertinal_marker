@@ -1,0 +1,115 @@
+[0.028s] Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/pathfinder/vis_ws/src/vis/librviz_tutorial -DCMAKE_INSTALL_PREFIX=/home/pathfinder/vis_ws/install/librviz_tutorial
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.627s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.682s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.700s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.803s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.809s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.899s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.932s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.006s] -- Looking for pthread.h
+[1.069s] -- Looking for pthread.h - found
+[1.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.144s] -- Found Threads: TRUE  
+[1.329s] -- Found rviz_common: 11.2.6 (/opt/ros/humble/share/rviz_common/cmake)
+[1.361s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.362s] -- Found OGRE
+[1.362s] --   static     : OFF
+[1.362s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.362s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.362s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.362s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.362s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.362s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.362s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.362s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.362s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.362s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.362s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.364s] -- Could not find freeimage library
+[1.389s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.398s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.521s] -- Found X11: /usr/include   
+[1.521s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.577s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.577s] -- Looking for gethostbyname
+[1.634s] -- Looking for gethostbyname - found
+[1.634s] -- Looking for connect
+[1.688s] -- Looking for connect - found
+[1.688s] -- Looking for remove
+[1.746s] -- Looking for remove - found
+[1.746s] -- Looking for shmat
+[1.812s] -- Looking for shmat - found
+[1.812s] -- Looking for IceConnectionNumber in ICE
+[1.864s] -- Looking for IceConnectionNumber in ICE - found
+[1.866s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[1.866s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[1.964s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.218s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.218s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.703s] -- Found rviz_default_plugins: 11.2.6 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[3.755s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.987s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.987s] -- Configured cppcheck include dirs: 
+[3.987s] -- Configured cppcheck exclude dirs and/or files: 
+[3.990s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.990s] -- Configured cpplint exclude dirs and/or files: 
+[4.000s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.002s] -- Added test 'lint_cmake' to check CMake code style
+[4.004s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.006s] -- Added test 'uncrustify' to check C / C++ code style
+[4.006s] -- Configured uncrustify additional arguments: 
+[4.020s] -- Added test 'xmllint' to check XML markup files
+[4.026s] -- Configuring done
+[4.080s] -- Generating done
+[4.095s] -- Build files have been written to: /home/pathfinder/vis_ws/build/librviz_tutorial
+[4.144s] Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/pathfinder/vis_ws/src/vis/librviz_tutorial -DCMAKE_INSTALL_PREFIX=/home/pathfinder/vis_ws/install/librviz_tutorial
+[4.145s] Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[4.379s] [ 20%] [34m[1mAutomatic MOC for target myviz[0m
+[5.352s] [ 20%] Built target myviz_autogen
+[5.457s] [ 40%] [32mBuilding CXX object CMakeFiles/myviz.dir/myviz_autogen/mocs_compilation.cpp.o[0m
+[5.497s] [ 60%] [32mBuilding CXX object CMakeFiles/myviz.dir/src/myviz.cpp.o[0m
+[5.499s] [ 80%] [32mBuilding CXX object CMakeFiles/myviz.dir/src/main.cpp.o[0m
+[14.035s] [100%] [32m[1mLinking CXX executable myviz[0m
+[16.280s] [100%] Built target myviz
+[16.293s] Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[16.334s] Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial
+[16.342s] -- Install configuration: ""
+[16.342s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/lib/librviz_tutorial/myviz
+[16.342s] -- Set runtime path of "/home/pathfinder/vis_ws/install/librviz_tutorial/lib/librviz_tutorial/myviz" to ""
+[16.342s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/parent_prefix_path/librviz_tutorial
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.sh
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.dsv
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.sh
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.dsv
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.bash
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.sh
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.zsh
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.dsv
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.dsv
+[16.343s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/packages/librviz_tutorial
+[16.344s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.344s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig.cmake
+[16.344s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig-version.cmake
+[16.344s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.xml
+[16.347s] Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial

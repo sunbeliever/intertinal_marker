@@ -1,0 +1,25 @@
+[0.032s] Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[0.092s] [ 20%] [34m[1mAutomatic MOC for target myviz[0m
+[0.116s] [ 20%] Built target myviz_autogen
+[0.145s] [100%] Built target myviz
+[0.153s] Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[0.199s] Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial
+[0.211s] -- Install configuration: ""
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/lib/librviz_tutorial/myviz
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/parent_prefix_path/librviz_tutorial
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.dsv
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.sh
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.dsv
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.bash
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.sh
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.zsh
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.dsv
+[0.211s] -- Installing: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.dsv
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/ament_index/resource_index/packages/librviz_tutorial
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.211s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig.cmake
+[0.212s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig-version.cmake
+[0.212s] -- Up-to-date: /home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.xml
+[0.215s] Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial

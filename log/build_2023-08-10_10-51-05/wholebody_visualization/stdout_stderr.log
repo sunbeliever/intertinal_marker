@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:11:41:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > trajectory_points[m[K’
+   11 |  std::vector<geometry_msgs::msg::Point> [01;31m[Ktrajectory_points[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:9:39:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > > trajectory_points[m[K’ previously declared here
+    9 | std::vector<geometry_msgs::msg::Point>[01;36m[Ktrajectory_points[m[K;
+      |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In member function ‘[01m[Kvoid JointStatePub::processFeedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:140:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Point point[m[K’
+  140 |   geometry_msgs::msg::Point [01;31m[Kpoint[m[K;
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:131:30:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point point[m[K’ previously declared here
+  131 |    geometry_msgs::msg::Point [01;36m[Kpoint[m[K;
+      |                              [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

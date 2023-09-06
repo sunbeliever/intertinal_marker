@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wholebody_visualization[0m
+[100%] Built target wholebody_visualization
+-- Install configuration: ""
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch/rviz.launch.py
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization
+-- Set runtime path of "/home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization" to ""
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/package_run_dependencies/wholebody_visualization
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/parent_prefix_path/wholebody_visualization
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.sh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.dsv
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.bash
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.sh
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.zsh
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.dsv
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/packages/wholebody_visualization
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig.cmake
+-- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig-version.cmake
+-- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.xml

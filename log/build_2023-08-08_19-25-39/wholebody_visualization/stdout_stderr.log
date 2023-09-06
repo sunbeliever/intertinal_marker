@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+In file included from [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:1[m[K:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid JointStatePub::setCallback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid JointStatePub::setCallback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+   48 |    void [01;31m[KsetCallback[m[K(const geometry_msgs::msg::Pose::SharedPtr msg){
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/include/joint_state_pub.h:37:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid JointStatePub::setCallback(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+   37 |   void [01;36m[KsetCallback[m[K(const geometry_msgs::msg::Pose::SharedPtr msg){
+      |        [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

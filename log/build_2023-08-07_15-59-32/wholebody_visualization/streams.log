@@ -1,0 +1,56 @@
+[0.024s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[0.054s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.207s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.213s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[0.578s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.835s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.837s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.838s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.982s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.030s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.030s] -- Configured cppcheck include dirs: /home/pathfinder/vis_ws/src/wholebody_visualization/include;$<BUILD_INTERFACE:/home/pathfinder/vis_ws/src/wholebody_visualization/include/>
+[1.030s] -- Configured cppcheck exclude dirs and/or files: 
+[1.030s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.030s] -- Added test 'lint_cmake' to check CMake code style
+[1.031s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.032s] -- Added test 'uncrustify' to check C / C++ code style
+[1.032s] -- Configured uncrustify additional arguments: 
+[1.032s] -- Added test 'xmllint' to check XML markup files
+[1.033s] -- Configuring done
+[1.042s] -- Generating done
+[1.043s] -- Build files have been written to: /home/pathfinder/vis_ws/build/wholebody_visualization
+[1.065s] [35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[1.079s] [ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[7.788s] [100%] [32m[1mLinking CXX executable wholebody_visualization[0m
+[8.152s] [100%] Built target wholebody_visualization
+[8.164s] Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[8.187s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization
+[8.192s] -- Install configuration: ""
+[8.192s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch
+[8.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch/rviz.launch.py
+[8.193s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization
+[8.196s] -- Set runtime path of "/home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization" to ""
+[8.196s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/package_run_dependencies/wholebody_visualization
+[8.196s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/parent_prefix_path/wholebody_visualization
+[8.196s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.sh
+[8.196s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.dsv
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.sh
+[8.197s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.dsv
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.bash
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.sh
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.zsh
+[8.197s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.dsv
+[8.197s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/packages/wholebody_visualization
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig.cmake
+[8.197s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig-version.cmake
+[8.197s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.xml
+[8.199s] Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization

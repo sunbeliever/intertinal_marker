@@ -1,0 +1,50 @@
+[ 28%] Built target menu
+[ 28%] Built target selection
+[ 35%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[ 50%] Built target basic_controls
+[ 64%] Built target pong_library
+[ 78%] Built target cube
+[ 92%] Built target pong
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  122 |   [01;31m[Ktf2[m[K::Quaternion orien(1,0,0,1);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Korien[m[K’ was not declared in this scope
+  124 |   [01;31m[Korien[m[K.normalize();
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:125:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  125 |   control.orientation=[01;31m[Ktf2[m[K::toMsg(orien);
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:128:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  128 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:131:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  131 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:133:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  133 |   orien = [01;31m[Ktf2[m[K::Quaternion(0.0, 1.0, 0.0, 1.0);
+      |           [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:135:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  135 |   control.orientation = [01;31m[Ktf2[m[K::toMsg(orien);
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:138:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  138 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:141:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  141 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:143:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  143 |   orien = [01;31m[Ktf2[m[K::Quaternion(0.0, 0.0, 1.0, 1.0);
+      |           [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  145 |   control.orientation = [01;31m[Ktf2[m[K::toMsg(orien);
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:148:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  148 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+[01m[K/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials/src/simple_marker.cpp:151:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  151 |   interactive_markers[01;31m[K.[m[Kcontrols.push_back(control);
+      |                      [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/simple_marker.dir/build.make:76: CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/simple_marker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

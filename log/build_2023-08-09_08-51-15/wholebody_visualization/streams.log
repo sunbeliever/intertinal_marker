@@ -1,0 +1,18 @@
+[0.024s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[1.775s] [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In constructor ‘[01m[KJointStatePub::JointStatePub(std::string)[m[K’:
+[1.775s] [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinteractive_marker[m[K’ was not declared in this scope; did you mean ‘[01m[Kinteractive_markers[m[K’?
+[1.775s]    27 |   [01;31m[Kinteractive_marker[m[K.header.frame_id = "world";
+[1.775s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.775s]       |   [32m[Kinteractive_markers[m[K
+[1.779s] [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbox_marker[m[K’ was not declared in this scope
+[1.779s]    33 |   [01;31m[Kbox_marker[m[K.type = visualization_msgs::msg::Marker::SPHERE;
+[1.779s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.782s] [01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[KControl[m[K’ was not declared in this scope
+[1.782s]    46 |   [01;31m[KControl[m[K.always_visible = true;
+[1.782s]       |   [01;31m[K^~~~~~~[m[K
+[3.214s] gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+[3.214s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+[3.214s] gmake: *** [Makefile:146: all] Error 2
+[3.216s] Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12

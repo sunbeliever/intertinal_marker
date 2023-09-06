@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:[m[K In constructor ‘[01m[KJointStatePub::JointStatePub(std::string)[m[K’:
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:81:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion orien[m[K’
+   81 |     tf2::Quaternion [01;31m[Korien[m[K(0.0, 1.0, 0.0, 1.0);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:72:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion orien[m[K’ previously declared here
+   72 |     tf2::Quaternion [01;36m[Korien[m[K(1.0, 0.0, 0.0, 1.0);
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:91:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion orien[m[K’
+   91 |     tf2::Quaternion [01;31m[Korien[m[K(0.0, 0.0, 1.0, 1.0);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/pathfinder/vis_ws/src/wholebody_visualization/src/joint_state_pub.cpp:72:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion orien[m[K’ previously declared here
+   72 |     tf2::Quaternion [01;36m[Korien[m[K(1.0, 0.0, 0.0, 1.0);
+      |                     [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/wholebody_visualization.dir/build.make:76: CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wholebody_visualization.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

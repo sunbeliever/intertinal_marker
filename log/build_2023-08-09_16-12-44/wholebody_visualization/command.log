@@ -1,0 +1,1 @@
+Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12

@@ -1,0 +1,40 @@
+[0.039s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[0.117s] [ 14%] Built target cube
+[0.118s] [ 28%] Built target menu
+[0.121s] [ 42%] Built target basic_controls
+[0.121s] [ 57%] Built target pong
+[0.122s] [ 71%] Built target simple_marker
+[0.122s] [ 85%] Built target selection
+[0.123s] [100%] Built target pong_library
+[0.135s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[0.180s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials
+[0.187s] -- Install configuration: ""
+[0.188s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/pong
+[0.188s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/basic_controls.py
+[0.188s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/cube.py
+[0.188s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/menu.py
+[0.189s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/simple_marker.py
+[0.189s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/libpong_library.so
+[0.191s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/basic_controls
+[0.191s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/cube
+[0.191s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/selection
+[0.192s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/simple_marker
+[0.192s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/menu
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.dsv
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.sh
+[0.193s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.dsv
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.bash
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.sh
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.zsh
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.dsv
+[0.194s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/packages/interactive_marker_tutorials
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig.cmake
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig-version.cmake
+[0.194s] -- Up-to-date: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.xml
+[0.207s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials

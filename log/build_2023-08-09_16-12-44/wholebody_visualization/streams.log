@@ -1,0 +1,4 @@
+[0.025s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[5.720s] [100%] [32m[1mLinking CXX executable wholebody_visualization[0m
+[6.022s] [100%] Built target wholebody_visualization

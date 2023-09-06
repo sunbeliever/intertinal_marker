@@ -1,0 +1,600 @@
+[0.206s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.206s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0790fabfa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0791764790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0791764790>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pathfinder/vis_ws'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/__pycache__) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/build) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/install) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/install) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/interactive_marker_tutorials) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vis/interactive_marker_tutorials' with type 'ros.ament_cmake' and name 'interactive_marker_tutorials'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/librviz_tutorial) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vis/librviz_tutorial' with type 'ros.ament_cmake' and name 'librviz_tutorial'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_plugin_tutorials) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vis/rviz_plugin_tutorials' with type 'ros.ament_cmake' and name 'rviz_plugin_tutorials'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_python_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_python_tutorial) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/rviz_python_tutorial) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_marker_tutorials) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vis/visualization_marker_tutorials' with type 'ros.ament_cmake' and name 'visualization_marker_tutorials'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vis/visualization_tutorials) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vis/visualization_tutorials' with type 'ros.ament_cmake' and name 'visualization_tutorials'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/whole_vis) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_description) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wholebody_description' with type 'ros.ament_cmake' and name 'wholebody_description'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wholebody_visualization) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wholebody_visualization' with type 'ros.ament_cmake' and name 'wholebody_visualization'
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/pathfinder/vis_ws/install
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 58 installed packages in /home/pathfinder/ws_moveit2/install
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'interactive_marker_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/interactive_marker_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/interactive_marker_tutorials', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'librviz_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/librviz_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/librviz_tutorial', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/vis/librviz_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_plugin_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/rviz_plugin_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/vis/rviz_plugin_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_marker_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/visualization_marker_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/visualization_marker_tutorials', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/vis/visualization_marker_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'wholebody_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'wholebody_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/wholebody_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/wholebody_description', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/wholebody_description', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'wholebody_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'wholebody_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/wholebody_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/wholebody_visualization', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/wholebody_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pathfinder/vis_ws/build/visualization_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pathfinder/vis_ws/install/visualization_tutorials', 'merge_install': False, 'path': '/home/pathfinder/vis_ws/src/vis/visualization_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials'
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/vis/librviz_tutorial' with build type 'ament_cmake'
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/vis/librviz_tutorial'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/vis/rviz_plugin_tutorials' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/vis/rviz_plugin_tutorials'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/vis/visualization_marker_tutorials' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/vis/visualization_marker_tutorials'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/wholebody_description' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/wholebody_description'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/wholebody_visualization' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/wholebody_visualization'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/rviz_plugin_tutorials -- -j12 -l12
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/visualization_marker_tutorials -- -j12 -l12
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/wholebody_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_description -- -j12 -l12
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/wholebody_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_description -- -j12 -l12
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/wholebody_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_description
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/visualization_marker_tutorials -- -j12 -l12
+[0.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wholebody_description)
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/wholebody_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_description
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description' for CMake module files
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description' for CMake config files
+[0.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('wholebody_description', 'cmake_prefix_path')
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/lib/pkgconfig/wholebody_description.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/lib/python3.10/site-packages'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/bin'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.zsh'
+[0.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/wholebody_description/share/colcon-core/packages/wholebody_description)
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/visualization_marker_tutorials
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/librviz_tutorial -- -j12 -l12
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials
+[0.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_marker_tutorials)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials' for CMake module files
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials' for CMake config files
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/visualization_marker_tutorials
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_marker_tutorials', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/bin'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib/pkgconfig/visualization_marker_tutorials.pc'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib/python3.10/site-packages'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/bin'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.sh'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.bash'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.zsh'
+[0.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/colcon-core/packages/visualization_marker_tutorials)
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wholebody_description)
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description' for CMake module files
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description' for CMake config files
+[0.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('wholebody_description', 'cmake_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/lib/pkgconfig/wholebody_description.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/lib/python3.10/site-packages'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_description/bin'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_description/share/wholebody_description/package.zsh'
+[0.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/wholebody_description/share/colcon-core/packages/wholebody_description)
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/rviz_plugin_tutorials -- -j12 -l12
+[0.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interactive_marker_tutorials)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials' for CMake module files
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials' for CMake config files
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'cmake_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.sh'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib'
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'ld_library_path_lib')
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.sh'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin'
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'path')
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.sh'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/pkgconfig/interactive_marker_tutorials.pc'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/python3.10/site-packages'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin'
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'pythonscriptspath')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.bash'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.zsh'
+[0.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/colcon-core/packages/interactive_marker_tutorials)
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_marker_tutorials)
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials' for CMake module files
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials' for CMake config files
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_marker_tutorials', 'cmake_prefix_path')
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.sh'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/bin'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib/pkgconfig/visualization_marker_tutorials.pc'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/lib/python3.10/site-packages'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/bin'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.bash'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/visualization_marker_tutorials/share/colcon-core/packages/visualization_marker_tutorials)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(librviz_tutorial)
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial' for CMake module files
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/librviz_tutorial
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial' for CMake config files
+[0.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('librviz_tutorial', 'cmake_prefix_path')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.sh'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/bin'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib/pkgconfig/librviz_tutorial.pc'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib/python3.10/site-packages'
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/bin'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.dsv'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.sh'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.bash'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.zsh'
+[0.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/librviz_tutorial/share/colcon-core/packages/librviz_tutorial)
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/rviz_plugin_tutorials
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plugin_tutorials)
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials' for CMake module files
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials' for CMake config files
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/rviz_plugin_tutorials
+[0.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plugin_tutorials', 'cmake_prefix_path')
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.sh'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/bin'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib/pkgconfig/rviz_plugin_tutorials.pc'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib/python3.10/site-packages'
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/bin'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.sh'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.bash'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.zsh'
+[0.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/colcon-core/packages/rviz_plugin_tutorials)
+[0.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interactive_marker_tutorials)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials' for CMake module files
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.ps1'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib'
+[0.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'ld_library_path_lib')
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.sh'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin'
+[0.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.sh'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/pkgconfig/interactive_marker_tutorials.pc'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/python3.10/site-packages'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'pythonscriptspath')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.bash'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.zsh'
+[0.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/colcon-core/packages/interactive_marker_tutorials)
+[0.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(librviz_tutorial)
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial' for CMake module files
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('librviz_tutorial', 'cmake_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/bin'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib/pkgconfig/librviz_tutorial.pc'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/lib/python3.10/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/librviz_tutorial/bin'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.bash'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/librviz_tutorial/share/librviz_tutorial/package.zsh'
+[0.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/librviz_tutorial/share/colcon-core/packages/librviz_tutorial)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plugin_tutorials)
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials' for CMake module files
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials' for CMake config files
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plugin_tutorials', 'cmake_prefix_path')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib/pkgconfig/rviz_plugin_tutorials.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/lib/python3.10/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.zsh'
+[0.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/rviz_plugin_tutorials/share/colcon-core/packages/rviz_plugin_tutorials)
+[0.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pathfinder/vis_ws/src/vis/visualization_tutorials' with build type 'ament_cmake'
+[0.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pathfinder/vis_ws/src/vis/visualization_tutorials'
+[0.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/visualization_tutorials': CMAKE_PREFIX_PATH=/home/pathfinder/vis_ws/install/visualization_marker_tutorials:/home/pathfinder/vis_ws/install/rviz_plugin_tutorials:/home/pathfinder/vis_ws/install/librviz_tutorial:/home/pathfinder/vis_ws/install/interactive_marker_tutorials:/home/pathfinder/vis_ws/install/wholebody_visualization:/home/pathfinder/vis_ws/install/wholebody_description:/home/pathfinder/vis_ws/install/visualization_tutorials:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/pathfinder/ws_moveit2/install/moveit_runtime:/home/pathfinder/ws_moveit2/install/moveit2_tutorials:/home/pathfinder/ws_moveit2/install/moveit:/home/pathfinder/ws_moveit2/install/moveit_planners:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner:/home/pathfinder/ws_moveit2/install/mtc_tutorial:/home/pathfinder/ws_moveit2/install/hello_moveit:/home/pathfinder/ws_moveit2/install/moveit_visual_tools:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_visualization:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_demo:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_capabilities:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_core:/home/pathfinder/ws_moveit2/install/moveit_ros_control_interface:/home/pathfinder/ws_moveit2/install/moveit_plugins:/home/pathfinder/ws_moveit2/install/moveit_simple_controller_manager:/home/pathfinder/ws_moveit2/install/moveit_setup_assistant:/home/pathfinder/ws_moveit2/install/moveit_setup_srdf_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_core_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_controllers:/home/pathfinder/ws_moveit2/install/moveit_setup_app_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_framework:/home/pathfinder/ws_moveit2/install/moveit_servo:/home/pathfinder/ws_moveit2/install/moveit_ros:/home/pathfinder/ws_moveit2/install/moveit_ros_visualization:/home/pathfinder/ws_moveit2/install/moveit_hybrid_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_planning_interface:/home/pathfinder/ws_moveit2/install/moveit_ros_benchmarks:/home/pathfinder/ws_moveit2/install/moveit_ros_warehouse:/home/pathfinder/ws_moveit2/install/moveit_ros_robot_interaction:/home/pathfinder/ws_moveit2/install/moveit_ros_perception:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_ros_move_group:/home/pathfinder/ws_moveit2/install/moveit_planners_ompl:/home/pathfinder/ws_moveit2/install/moveit_ros_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/pathfinder/ws_moveit2/install/moveit_planners_chomp:/home/pathfinder/ws_moveit2/install/moveit_kinematics:/home/pathfinder/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/pathfinder/ws_moveit2/install/chomp_motion_planner:/home/pathfinder/ws_moveit2/install/moveit_core:/home/pathfinder/ws_moveit2/install/srdfdom:/home/pathfinder/ws_moveit2/install/rviz_marker_tools:/home/pathfinder/ws_moveit2/install/rosparam_shortcuts:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_msgs:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_support:/home/pathfinder/ws_moveit2/install/moveit_resources:/home/pathfinder/ws_moveit2/install/moveit_resources_pr2_description:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_description:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_description:/home/pathfinder/ws_moveit2/install/moveit_common:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/visualization_tutorials -- -j12 -l12
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/visualization_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/pathfinder/vis_ws/install/visualization_marker_tutorials:/home/pathfinder/vis_ws/install/rviz_plugin_tutorials:/home/pathfinder/vis_ws/install/librviz_tutorial:/home/pathfinder/vis_ws/install/interactive_marker_tutorials:/home/pathfinder/vis_ws/install/wholebody_visualization:/home/pathfinder/vis_ws/install/wholebody_description:/home/pathfinder/vis_ws/install/visualization_tutorials:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/pathfinder/ws_moveit2/install/moveit_runtime:/home/pathfinder/ws_moveit2/install/moveit2_tutorials:/home/pathfinder/ws_moveit2/install/moveit:/home/pathfinder/ws_moveit2/install/moveit_planners:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner:/home/pathfinder/ws_moveit2/install/mtc_tutorial:/home/pathfinder/ws_moveit2/install/hello_moveit:/home/pathfinder/ws_moveit2/install/moveit_visual_tools:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_visualization:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_demo:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_capabilities:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_core:/home/pathfinder/ws_moveit2/install/moveit_ros_control_interface:/home/pathfinder/ws_moveit2/install/moveit_plugins:/home/pathfinder/ws_moveit2/install/moveit_simple_controller_manager:/home/pathfinder/ws_moveit2/install/moveit_setup_assistant:/home/pathfinder/ws_moveit2/install/moveit_setup_srdf_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_core_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_controllers:/home/pathfinder/ws_moveit2/install/moveit_setup_app_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_framework:/home/pathfinder/ws_moveit2/install/moveit_servo:/home/pathfinder/ws_moveit2/install/moveit_ros:/home/pathfinder/ws_moveit2/install/moveit_ros_visualization:/home/pathfinder/ws_moveit2/install/moveit_hybrid_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_planning_interface:/home/pathfinder/ws_moveit2/install/moveit_ros_benchmarks:/home/pathfinder/ws_moveit2/install/moveit_ros_warehouse:/home/pathfinder/ws_moveit2/install/moveit_ros_robot_interaction:/home/pathfinder/ws_moveit2/install/moveit_ros_perception:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_ros_move_group:/home/pathfinder/ws_moveit2/install/moveit_planners_ompl:/home/pathfinder/ws_moveit2/install/moveit_ros_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/pathfinder/ws_moveit2/install/moveit_planners_chomp:/home/pathfinder/ws_moveit2/install/moveit_kinematics:/home/pathfinder/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/pathfinder/ws_moveit2/install/chomp_motion_planner:/home/pathfinder/ws_moveit2/install/moveit_core:/home/pathfinder/ws_moveit2/install/srdfdom:/home/pathfinder/ws_moveit2/install/rviz_marker_tools:/home/pathfinder/ws_moveit2/install/rosparam_shortcuts:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_msgs:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_support:/home/pathfinder/ws_moveit2/install/moveit_resources:/home/pathfinder/ws_moveit2/install/moveit_resources_pr2_description:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_description:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_description:/home/pathfinder/ws_moveit2/install/moveit_common:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/visualization_tutorials -- -j12 -l12
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/visualization_tutorials': CMAKE_PREFIX_PATH=/home/pathfinder/vis_ws/install/visualization_marker_tutorials:/home/pathfinder/vis_ws/install/rviz_plugin_tutorials:/home/pathfinder/vis_ws/install/librviz_tutorial:/home/pathfinder/vis_ws/install/interactive_marker_tutorials:/home/pathfinder/vis_ws/install/wholebody_visualization:/home/pathfinder/vis_ws/install/wholebody_description:/home/pathfinder/vis_ws/install/visualization_tutorials:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/pathfinder/ws_moveit2/install/moveit_runtime:/home/pathfinder/ws_moveit2/install/moveit2_tutorials:/home/pathfinder/ws_moveit2/install/moveit:/home/pathfinder/ws_moveit2/install/moveit_planners:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner:/home/pathfinder/ws_moveit2/install/mtc_tutorial:/home/pathfinder/ws_moveit2/install/hello_moveit:/home/pathfinder/ws_moveit2/install/moveit_visual_tools:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_visualization:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_demo:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_capabilities:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_core:/home/pathfinder/ws_moveit2/install/moveit_ros_control_interface:/home/pathfinder/ws_moveit2/install/moveit_plugins:/home/pathfinder/ws_moveit2/install/moveit_simple_controller_manager:/home/pathfinder/ws_moveit2/install/moveit_setup_assistant:/home/pathfinder/ws_moveit2/install/moveit_setup_srdf_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_core_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_controllers:/home/pathfinder/ws_moveit2/install/moveit_setup_app_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_framework:/home/pathfinder/ws_moveit2/install/moveit_servo:/home/pathfinder/ws_moveit2/install/moveit_ros:/home/pathfinder/ws_moveit2/install/moveit_ros_visualization:/home/pathfinder/ws_moveit2/install/moveit_hybrid_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_planning_interface:/home/pathfinder/ws_moveit2/install/moveit_ros_benchmarks:/home/pathfinder/ws_moveit2/install/moveit_ros_warehouse:/home/pathfinder/ws_moveit2/install/moveit_ros_robot_interaction:/home/pathfinder/ws_moveit2/install/moveit_ros_perception:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_ros_move_group:/home/pathfinder/ws_moveit2/install/moveit_planners_ompl:/home/pathfinder/ws_moveit2/install/moveit_ros_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/pathfinder/ws_moveit2/install/moveit_planners_chomp:/home/pathfinder/ws_moveit2/install/moveit_kinematics:/home/pathfinder/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/pathfinder/ws_moveit2/install/chomp_motion_planner:/home/pathfinder/ws_moveit2/install/moveit_core:/home/pathfinder/ws_moveit2/install/srdfdom:/home/pathfinder/ws_moveit2/install/rviz_marker_tools:/home/pathfinder/ws_moveit2/install/rosparam_shortcuts:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_msgs:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_support:/home/pathfinder/ws_moveit2/install/moveit_resources:/home/pathfinder/ws_moveit2/install/moveit_resources_pr2_description:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_description:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_description:/home/pathfinder/ws_moveit2/install/moveit_common:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/visualization_tutorials
+[0.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tutorials)
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials' for CMake module files
+[0.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/visualization_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/pathfinder/vis_ws/install/visualization_marker_tutorials:/home/pathfinder/vis_ws/install/rviz_plugin_tutorials:/home/pathfinder/vis_ws/install/librviz_tutorial:/home/pathfinder/vis_ws/install/interactive_marker_tutorials:/home/pathfinder/vis_ws/install/wholebody_visualization:/home/pathfinder/vis_ws/install/wholebody_description:/home/pathfinder/vis_ws/install/visualization_tutorials:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/pathfinder/ws_moveit2/install/moveit_runtime:/home/pathfinder/ws_moveit2/install/moveit2_tutorials:/home/pathfinder/ws_moveit2/install/moveit:/home/pathfinder/ws_moveit2/install/moveit_planners:/home/pathfinder/ws_moveit2/install/pilz_industrial_motion_planner:/home/pathfinder/ws_moveit2/install/mtc_tutorial:/home/pathfinder/ws_moveit2/install/hello_moveit:/home/pathfinder/ws_moveit2/install/moveit_visual_tools:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_visualization:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_demo:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_capabilities:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_core:/home/pathfinder/ws_moveit2/install/moveit_ros_control_interface:/home/pathfinder/ws_moveit2/install/moveit_plugins:/home/pathfinder/ws_moveit2/install/moveit_simple_controller_manager:/home/pathfinder/ws_moveit2/install/moveit_setup_assistant:/home/pathfinder/ws_moveit2/install/moveit_setup_srdf_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_core_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_controllers:/home/pathfinder/ws_moveit2/install/moveit_setup_app_plugins:/home/pathfinder/ws_moveit2/install/moveit_setup_framework:/home/pathfinder/ws_moveit2/install/moveit_servo:/home/pathfinder/ws_moveit2/install/moveit_ros:/home/pathfinder/ws_moveit2/install/moveit_ros_visualization:/home/pathfinder/ws_moveit2/install/moveit_hybrid_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_planning_interface:/home/pathfinder/ws_moveit2/install/moveit_ros_benchmarks:/home/pathfinder/ws_moveit2/install/moveit_ros_warehouse:/home/pathfinder/ws_moveit2/install/moveit_ros_robot_interaction:/home/pathfinder/ws_moveit2/install/moveit_ros_perception:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_ros_move_group:/home/pathfinder/ws_moveit2/install/moveit_planners_ompl:/home/pathfinder/ws_moveit2/install/moveit_ros_planning:/home/pathfinder/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/pathfinder/ws_moveit2/install/moveit_planners_chomp:/home/pathfinder/ws_moveit2/install/moveit_kinematics:/home/pathfinder/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/pathfinder/ws_moveit2/install/chomp_motion_planner:/home/pathfinder/ws_moveit2/install/moveit_core:/home/pathfinder/ws_moveit2/install/srdfdom:/home/pathfinder/ws_moveit2/install/rviz_marker_tools:/home/pathfinder/ws_moveit2/install/rosparam_shortcuts:/home/pathfinder/ws_moveit2/install/moveit_task_constructor_msgs:/home/pathfinder/ws_moveit2/install/moveit_resources_prbt_support:/home/pathfinder/ws_moveit2/install/moveit_resources:/home/pathfinder/ws_moveit2/install/moveit_resources_pr2_description:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_panda_description:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/pathfinder/ws_moveit2/install/moveit_resources_fanuc_description:/home/pathfinder/ws_moveit2/install/moveit_common:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/visualization_tutorials
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials' for CMake config files
+[0.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tutorials', 'cmake_prefix_path')
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.sh'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/bin'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/lib/pkgconfig/visualization_tutorials.pc'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/lib/python3.10/site-packages'
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/bin'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.sh'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.bash'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.zsh'
+[0.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/visualization_tutorials/share/colcon-core/packages/visualization_tutorials)
+[0.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tutorials)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tutorials', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/lib/pkgconfig/visualization_tutorials.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/visualization_tutorials/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/visualization_tutorials/share/visualization_tutorials/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/visualization_tutorials/share/colcon-core/packages/visualization_tutorials)
+[6.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[6.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization
+[6.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wholebody_visualization)
+[6.356s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization' for CMake module files
+[6.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization
+[6.357s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization' for CMake config files
+[6.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('wholebody_visualization', 'cmake_prefix_path')
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.ps1'
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.dsv'
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.sh'
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib'
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/bin'
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib/pkgconfig/wholebody_visualization.pc'
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib/python3.10/site-packages'
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/bin'
+[6.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.ps1'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.sh'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.bash'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.zsh'
+[6.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/wholebody_visualization/share/colcon-core/packages/wholebody_visualization)
+[6.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wholebody_visualization)
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization' for CMake module files
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization' for CMake config files
+[6.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('wholebody_visualization', 'cmake_prefix_path')
+[6.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.ps1'
+[6.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.dsv'
+[6.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/hook/cmake_prefix_path.sh'
+[6.385s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib'
+[6.386s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/bin'
+[6.386s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib/pkgconfig/wholebody_visualization.pc'
+[6.386s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/lib/python3.10/site-packages'
+[6.386s] Level 1:colcon.colcon_core.environment:checking '/home/pathfinder/vis_ws/install/wholebody_visualization/bin'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.ps1'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.sh'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.bash'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.zsh'
+[6.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pathfinder/vis_ws/install/wholebody_visualization/share/colcon-core/packages/wholebody_visualization)
+[6.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.388s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.395s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.403s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/vis_ws/install/local_setup.ps1'
+[6.405s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pathfinder/vis_ws/install/_local_setup_util_ps1.py'
+[6.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/vis_ws/install/setup.ps1'
+[6.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/vis_ws/install/local_setup.sh'
+[6.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pathfinder/vis_ws/install/_local_setup_util_sh.py'
+[6.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/vis_ws/install/setup.sh'
+[6.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/vis_ws/install/local_setup.bash'
+[6.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/vis_ws/install/setup.bash'
+[6.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pathfinder/vis_ws/install/local_setup.zsh'
+[6.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pathfinder/vis_ws/install/setup.zsh'

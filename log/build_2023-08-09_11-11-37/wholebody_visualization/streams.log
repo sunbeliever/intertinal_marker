@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target wholebody_visualization[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/wholebody_visualization.dir/src/joint_state_pub.cpp.o[0m
+[6.647s] [100%] [32m[1mLinking CXX executable wholebody_visualization[0m
+[7.007s] [100%] Built target wholebody_visualization
+[7.019s] Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/wholebody_visualization -- -j12 -l12
+[7.041s] Invoking command in '/home/pathfinder/vis_ws/build/wholebody_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization
+[7.046s] -- Install configuration: ""
+[7.046s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch
+[7.046s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/launch/rviz.launch.py
+[7.046s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization
+[7.049s] -- Set runtime path of "/home/pathfinder/vis_ws/install/wholebody_visualization/lib/wholebody_visualization/wholebody_visualization" to ""
+[7.049s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/package_run_dependencies/wholebody_visualization
+[7.049s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/parent_prefix_path/wholebody_visualization
+[7.049s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.sh
+[7.049s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/ament_prefix_path.dsv
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.sh
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/environment/path.dsv
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.bash
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.sh
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.zsh
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/local_setup.dsv
+[7.050s] -- Installing: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.dsv
+[7.050s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/ament_index/resource_index/packages/wholebody_visualization
+[7.051s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig.cmake
+[7.051s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/cmake/wholebody_visualizationConfig-version.cmake
+[7.051s] -- Up-to-date: /home/pathfinder/vis_ws/install/wholebody_visualization/share/wholebody_visualization/package.xml
+[7.052s] Invoked command in '/home/pathfinder/vis_ws/build/wholebody_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/wholebody_visualization

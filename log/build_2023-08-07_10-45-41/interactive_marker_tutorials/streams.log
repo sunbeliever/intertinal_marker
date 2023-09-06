@@ -1,0 +1,114 @@
+[0.036s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials -DCMAKE_INSTALL_PREFIX=/home/pathfinder/vis_ws/install/interactive_marker_tutorials
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.567s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[0.663s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.676s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.692s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.868s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.999s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.032s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.087s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.100s] -- Looking for pthread.h
+[1.154s] -- Looking for pthread.h - found
+[1.154s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.220s] -- Found Threads: TRUE  
+[1.737s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.814s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.846s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.847s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.847s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.218s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.329s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.331s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.331s] -- Configured cppcheck include dirs: 
+[2.332s] -- Configured cppcheck exclude dirs and/or files: 
+[2.333s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.333s] -- Configured cpplint exclude dirs and/or files: 
+[2.334s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.336s] -- Added test 'lint_cmake' to check CMake code style
+[2.337s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.339s] -- Added test 'uncrustify' to check C / C++ code style
+[2.339s] -- Configured uncrustify additional arguments: 
+[2.340s] -- Added test 'xmllint' to check XML markup files
+[2.343s] -- Configuring done
+[2.371s] -- Generating done
+[2.373s] -- Build files have been written to: /home/pathfinder/vis_ws/build/interactive_marker_tutorials
+[2.381s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/pathfinder/vis_ws/src/vis/interactive_marker_tutorials -DCMAKE_INSTALL_PREFIX=/home/pathfinder/vis_ws/install/interactive_marker_tutorials
+[2.383s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[2.448s] [ 14%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[2.448s] [ 21%] [32mBuilding CXX object CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o[0m
+[2.448s] [ 21%] [32mBuilding CXX object CMakeFiles/cube.dir/src/cube.cpp.o[0m
+[2.451s] [ 28%] [32mBuilding CXX object CMakeFiles/menu.dir/src/menu.cpp.o[0m
+[2.451s] [ 35%] [32mBuilding CXX object CMakeFiles/selection.dir/src/selection.cpp.o[0m
+[2.452s] [ 42%] [32mBuilding CXX object CMakeFiles/pong_library.dir/src/pong.cpp.o[0m
+[2.466s] [ 50%] [32mBuilding CXX object CMakeFiles/pong.dir/rclcpp_components/node_main_pong.cpp.o[0m
+[7.542s] [ 57%] [32m[1mLinking CXX executable pong[0m
+[7.792s] [ 64%] [32m[1mLinking CXX executable menu[0m
+[7.928s] [ 64%] Built target pong
+[8.320s] [ 64%] Built target menu
+[8.582s] [ 71%] [32m[1mLinking CXX executable selection[0m
+[8.836s] [ 71%] Built target selection
+[9.209s] [ 78%] [32m[1mLinking CXX shared library libpong_library.so[0m
+[9.515s] [ 78%] Built target pong_library
+[9.813s] [ 85%] [32m[1mLinking CXX executable cube[0m
+[9.995s] [ 92%] [32m[1mLinking CXX executable simple_marker[0m
+[10.183s] [ 92%] Built target cube
+[10.303s] [ 92%] Built target simple_marker
+[12.283s] [100%] [32m[1mLinking CXX executable basic_controls[0m
+[12.488s] [100%] Built target basic_controls
+[12.499s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/pathfinder/vis_ws/build/interactive_marker_tutorials -- -j12 -l12
+[12.567s] Invoking command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials
+[12.577s] -- Install configuration: ""
+[12.577s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/pong
+[12.577s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/pong" to ""
+[12.577s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/basic_controls.py
+[12.578s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/cube.py
+[12.578s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/menu.py
+[12.578s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/bin/simple_marker.py
+[12.578s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/libpong_library.so
+[12.578s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/libpong_library.so" to ""
+[12.579s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/basic_controls
+[12.579s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/basic_controls" to ""
+[12.579s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/cube
+[12.580s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/cube" to ""
+[12.580s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/selection
+[12.580s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/selection" to ""
+[12.580s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/simple_marker
+[12.580s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/simple_marker" to ""
+[12.580s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/menu
+[12.581s] -- Set runtime path of "/home/pathfinder/vis_ws/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/menu" to ""
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.sh
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.dsv
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.sh
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.dsv
+[12.581s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.bash
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.sh
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.zsh
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.dsv
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/packages/interactive_marker_tutorials
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig.cmake
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig-version.cmake
+[12.582s] -- Installing: /home/pathfinder/vis_ws/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.xml
+[12.587s] Invoked command in '/home/pathfinder/vis_ws/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pathfinder/ws_moveit2/install/moveit_configs_utils:/home/pathfinder/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/pathfinder/vis_ws/build/interactive_marker_tutorials

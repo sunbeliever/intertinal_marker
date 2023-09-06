@@ -1,0 +1,7 @@
+[ 28%] Built target menu
+[ 28%] Built target selection
+[ 35%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[ 50%] Built target basic_controls
+[ 64%] Built target pong_library
+[ 78%] Built target cube
+[ 92%] Built target pong

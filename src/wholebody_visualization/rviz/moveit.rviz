@@ -1,0 +1,388 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /RobotModel1
+        - /RobotModel1/Description Topic1
+      Splitter Ratio: 0.5
+    Tree Height: 543
+  - Class: rviz_common/Help
+    Name: Help
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        0-base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-foot-fix:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-foot-joint-fix:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-hip-pitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-hip-roll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-hip-yaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        1-left-tarsus:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-foot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-foot-fix:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-foot-joint-fix:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-hip-pitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-hip-roll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-hip-yaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        2-right-tarsus:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link04:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link05:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        3-left-arm-link06:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        3-left-arm-link07:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link04:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link05:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        4-right-arm-link06:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        4-right-arm-link07:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        humanoid_hand:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_tool:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        world:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        0-base_link:
+          Value: true
+        1-left-foot:
+          Value: true
+        1-left-foot-fix:
+          Value: true
+        1-left-foot-joint-fix:
+          Value: true
+        1-left-hip-pitch:
+          Value: true
+        1-left-hip-roll:
+          Value: true
+        1-left-hip-yaw:
+          Value: true
+        1-left-tarsus:
+          Value: true
+        2-right-foot:
+          Value: true
+        2-right-foot-fix:
+          Value: true
+        2-right-foot-joint-fix:
+          Value: true
+        2-right-hip-pitch:
+          Value: true
+        2-right-hip-roll:
+          Value: true
+        2-right-hip-yaw:
+          Value: true
+        2-right-tarsus:
+          Value: true
+        3-left-arm-link01:
+          Value: true
+        3-left-arm-link02:
+          Value: true
+        3-left-arm-link03:
+          Value: true
+        3-left-arm-link04:
+          Value: true
+        3-left-arm-link05:
+          Value: true
+        3-left-arm-link06:
+          Value: true
+        3-left-arm-link07:
+          Value: true
+        4-right-arm-link01:
+          Value: true
+        4-right-arm-link02:
+          Value: true
+        4-right-arm-link03:
+          Value: true
+        4-right-arm-link04:
+          Value: true
+        4-right-arm-link05:
+          Value: true
+        4-right-arm-link06:
+          Value: true
+        4-right-arm-link07:
+          Value: true
+        All Enabled: true
+        humanoid_hand:
+          Value: true
+        left_tool:
+          Value: true
+        world:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Tree:
+        world:
+          0-base_link:
+            1-left-hip-roll:
+              1-left-hip-yaw:
+                1-left-hip-pitch:
+                  1-left-tarsus:
+                    1-left-foot:
+                      1-left-foot-fix:
+                        {}
+                    1-left-foot-joint-fix:
+                      {}
+            2-right-hip-roll:
+              2-right-hip-yaw:
+                2-right-hip-pitch:
+                  2-right-tarsus:
+                    2-right-foot:
+                      2-right-foot-fix:
+                        {}
+                    2-right-foot-joint-fix:
+                      {}
+            3-left-arm-link01:
+              3-left-arm-link02:
+                3-left-arm-link03:
+                  3-left-arm-link04:
+                    3-left-arm-link05:
+                      3-left-arm-link06:
+                        3-left-arm-link07:
+                          left_tool:
+                            humanoid_hand:
+                              {}
+            4-right-arm-link01:
+              4-right-arm-link02:
+                4-right-arm-link03:
+                  4-right-arm-link04:
+                    4-right-arm-link05:
+                      4-right-arm-link06:
+                        4-right-arm-link07:
+                          {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: 0-base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 3.3629720211029053
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.10000000149011612
+        Y: 0.25
+        Z: 0.30000001192092896
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.2750001847743988
+      Target Frame: world
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 2.84836745262146
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1043
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002b4000003bdfc0200000006fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000000000000000fb000000100044006900730070006c006100790073010000003b0000025a000000c700fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000113000001b60000000000000000fb0000000800480065006c0070000000029a0000006e0000006e00fffffffb0000000a00560069006500770073010000029b0000015d000000a000fffffffb00000024005200760069007a00560069007300750061006c0054006f006f006c00730047007500690100000334000000800000000000000000000004c6000003bd00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1920
+  X: 1920
+  Y: 0
